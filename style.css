@@ -1,0 +1,165 @@
+:root {
+    --body-bg: #f3f3f3;
+    --header-bg: #f9f9f9;
+    --header-color: #000000;
+    --vibrant: #ffae00;
+
+}
+
+.dark-mode:root {
+    --body-bg: #131531;
+    --header-bg: #1f1b46;
+    --header-color: #ffffff;
+    --vibrant: #3b5096;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    background-color: var(--body-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+header {
+    padding: 35px;
+    background-color: var(--header-bg);
+    box-shadow: 0px 0px 25px #0000005e;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--header-color);
+}
+
+#mode-icon {
+    cursor: pointer;
+    font-size: 36px;
+    color: var(--header-color);
+}
+
+.container {
+    margin: 36px auto;
+    width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+
+}
+
+.text {
+    font-size: 20px;
+    color: var(--header-color);
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text-reverse {
+    font-size: 20px;
+    color: var(--header-color);
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+p {
+    width: 500px;
+}
+
+
+
+
+.h2 {
+    font-size: 55px;
+    width: 500px;
+
+    text-align: left;
+    border-left: solid 5px var(--header-color);
+    padding-left: 20px;
+}
+
+.h2-reverse {
+    font-size: 55px;
+    width: 500px;
+
+    text-align: right;
+    border-right: solid 5px var(--header-color);
+    padding-right: 20px;
+}
+
+.img-content {
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #00000027;
+}
+
+.img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0 -75px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #00000027;
+}
+
+.svg {
+    width: 500px;
+}
+
+#funcionamento {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+h3 {
+    color: var(--vibrant);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#distancia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+
+
