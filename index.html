@@ -2,9 +2,15 @@
 <html lang="pt-br">
 
 <head>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +20,7 @@
 
 <body>
     <header>
-        <h1>About Moodle</h1>
+        <img src="img/logo.svg" alt="">
         <i id="mode-icon" class="fa-solid fa-moon"></i>
     </header>
     <div class="container">
@@ -24,33 +30,46 @@
                 <p>Moodle é uma plataforma LMS de gestão de aprendizagem de código aberto, que permite que você crie e
                     personalize seu próprio ambiente de ensino online.</p>
             </div>
-            <img class="img-content" src="https://ceduc.unifei.edu.br/wp-content/uploads/2020/04/Moodle_july27-1.png" alt="">
+            <img class="img-content" src="https://ceduc.unifei.edu.br/wp-content/uploads/2020/04/Moodle_july27-1.png"
+                alt="">
         </div>
         <img class="img" src="https://moodle.com/wp-content/uploads/2022/03/Academy.jpg" alt="">
-         <div id="funcionamento">
+        <div id="funcionamento">
             <div class="text-reverse">
                 <h2 class="h2-reverse">Como funciona</h2>
                 <p>O Moodle pode funcionar de <strong>três formas</strong> diferentes</p>
                 <h3>Primeira Forma</h3>
-                <p>É possível fazer o download do software e hospedá-lo no seu próprio servidor PHP para personalizá-lo como quiser, neste caso ele é gratuito.</p>
+                <p>É possível fazer o download do software e hospedá-lo no seu próprio servidor PHP para personalizá-lo
+                    como quiser, neste caso ele é gratuito.</p>
                 <h3>Segunda Forma</h3>
-                <p>Utilizá-lo na nuvem da própria solução. Essa é uma forma mais prática de construir sua plataforma de aprendizado, uma vez que os principais recursos, inclusive de hospedagem e de backups automáticos, já estão integrados.</p>
+                <p>Utilizá-lo na nuvem da própria solução. Essa é uma forma mais prática de construir sua plataforma de
+                    aprendizado, uma vez que os principais recursos, inclusive de hospedagem e de backups automáticos,
+                    já estão integrados.</p>
                 <h3>Terceira Forma</h3>
-                <p>Usar o Moodle através da sua rede de Provedores de Serviços, com profissionais certificados que personalizam e configuram a plataforma sob demanda.</p>
+                <p>Usar o Moodle através da sua rede de Provedores de Serviços, com profissionais certificados que
+                    personalizam e configuram a plataforma sob demanda.</p>
             </div>
             <img class="svg" src="img/img1.svg" alt="">
         </div>
         <div id="distancia">
             <div class="text">
                 <h2 class="h2">Como o Moodle contribui com a educação à distância?</h2>
-                <p>É possível construir o ambiente de aprendizado conforme o que a organização realmente precisar e particularidades de cada aluno, contando com recursos de acessibilidade.</p>
-                <p>Neste caso, você pode criar os mais diversos cursos, para pessoas de todas as idades e com variados níveis de aprendizado nos determinados assuntos.</p>
+                <p>É possível construir o ambiente de aprendizado conforme o que a organização realmente precisar e
+                    particularidades de cada aluno, contando com recursos de acessibilidade.</p>
+                <p>Neste caso, você pode criar os mais diversos cursos, para pessoas de todas as idades e com variados
+                    níveis de aprendizado nos determinados assuntos.</p>
             </div>
             <img src="img/img2.svg" alt="" class="svg">
         </div>
+        <footer>
+            <p>site desenvolvido por Gabriel e Amanda</p>
+        </footer>
     </div>
-
     <script src="darkmode.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -3,14 +3,18 @@
     --header-bg: #f9f9f9;
     --header-color: #000000;
     --vibrant: #ffae00;
+    --footer-color:#ffae00;
+    --footer-bg:#f9f9f9;
 
 }
 
 .dark-mode:root {
-    --body-bg: #131531;
-    --header-bg: #1f1b46;
+    --body-bg: #272934;
+    --header-bg: #1f2129;
     --header-color: #ffffff;
-    --vibrant: #3b5096;
+    --vibrant: #ffae00;
+    --footer-color: #ffae00;
+    --footer-bg:#1f2129;
 }
 
 * {
@@ -30,6 +34,17 @@ html {
 
 }
 
+
+::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--vibrant);
+    border-radius: 5px; 
+}
+
 header {
     padding: 35px;
     background-color: var(--header-bg);
@@ -40,6 +55,10 @@ header {
     align-items: center;
     justify-content: space-around;
 
+}
+
+header img{
+    height: 55px;
 }
 
 h1 {
@@ -137,6 +156,7 @@ p {
 
 .svg {
     width: 500px;
+
 }
 
 #funcionamento {
@@ -161,5 +181,16 @@ h3 {
     gap: 200px;
 }
 
+footer{
+    background-color: var(--footer-bg);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #0000000e;
+}
 
+footer p{
 
+    text-align: center;
+    color: var(--footer-color);  
+    font-size: 18px;
+}
